@@ -1,7 +1,24 @@
-# OnlineTeaMall
+# online-tea-mall
 
-这是一个线上茶叶商城 **移动端**
+## Project setup
+```
+npm install
+```
 
-## 相关技术
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-vue+node.js
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
