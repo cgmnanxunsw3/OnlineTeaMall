@@ -3,6 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+// 公共css文件
+import "@/assets/css/common.css";
+// 淘宝无线适配js文件
+import "@/assets/js/flexible";
+
 Vue.config.productionTip = false;
 
 new Vue({
