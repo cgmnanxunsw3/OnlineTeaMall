@@ -26,50 +26,50 @@
 </template>
 
 <script>
-// export default {
-//   data() {
-//     return {
-//       routerList: [
-//         {
-//           title: "首页",
-//           path: "/home",
-//           active: "./images/home.png",
-//           selected: "./images/home-select.png",
-//         },
-//         {
-//           title: "分类",
-//           path: "/list",
-//           active: "./images/list.png",
-//           selected: "./images/list-select.png",
-//         },
-//         {
-//           title: "购物车",
-//           path: "/cart",
-//           active: "./images/cart.png",
-//           selected: "./images/cart-select.png",
-//         },
-//         {
-//           title: "我的",
-//           path: "/my",
-//           active: "./images/my.png",
-//           selected: "./images/my-select.png",
-//         },
-//       ],
-//     };
-//   },
-//   methods: {
-//     switchTab(path) {
-//       // 判断是否点击的同一个路由
-//       if (this.$router.path == path) return;
-//       // 跳转到对应的界面
-//       this.$router.replace(path);
-//     },
-//   },
-// };
+export default {
+  data() {
+    return {
+      routerList: [
+        {
+          title: "首页",
+          path: "/home",
+          active: "./images/home.png",
+          selected: "./images/home-select.png",
+        },
+        {
+          title: "分类",
+          path: "/list",
+          active: "./images/list.png",
+          selected: "./images/list-select.png",
+        },
+        {
+          title: "购物车",
+          path: "/cart",
+          active: "./images/cart.png",
+          selected: "./images/cart-select.png",
+        },
+        {
+          title: "我的",
+          path: "/my",
+          active: "./images/my.png",
+          selected: "./images/my-select.png",
+        },
+      ],
+    };
+  },
+  methods: {
+    switchTab(path) {
+      // 判断是否点击的同一个路由
+      if (this.$router.path == path) return;
+      // 跳转到对应的界面
+      this.$router.replace(path);
+    },
+  },
+};
 </script>
 
 <style scoped>
-/* .tabbar {
+.tabbar {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -100,5 +100,5 @@
 }
 .active {
   color: red;
-} */
+}
 </style>
