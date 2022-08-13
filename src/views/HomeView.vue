@@ -6,6 +6,7 @@
     <ly-tab v-model="selectedId" :items="items" :options="options"> </ly-tab>
     <section>
       <Swiper></Swiper>
+      <Icons></Icons>
     </section>
     <Tabbar></Tabbar>
   </div>
@@ -15,6 +16,7 @@
 import Tabbar from "@/components/common/Tabbar.vue";
 import Header from "@/components/home/Header.vue";
 import Swiper from "@/components/home/Swiper.vue";
+import Icons from "@/components/home/Icons.vue";
 
 export default {
   name: "HomeView",
@@ -41,6 +43,7 @@ export default {
     Tabbar,
     Header,
     Swiper,
+    Icons,
   },
 };
 </script>
