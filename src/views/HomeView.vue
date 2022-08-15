@@ -7,6 +7,7 @@
     <section>
       <Swiper></Swiper>
       <Icons></Icons>
+      <Recommend></Recommend>
     </section>
     <Tabbar></Tabbar>
   </div>
@@ -17,6 +18,7 @@ import Tabbar from "@/components/common/Tabbar.vue";
 import Header from "@/components/home/Header.vue";
 import Swiper from "@/components/home/Swiper.vue";
 import Icons from "@/components/home/Icons.vue";
+import Recommend from "@/components/home/Recommend.vue";
 
 export default {
   name: "HomeView",
@@ -44,6 +46,7 @@ export default {
     Header,
     Swiper,
     Icons,
+    Recommend,
   },
 };
 </script>
