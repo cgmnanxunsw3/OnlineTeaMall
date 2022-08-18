@@ -17,6 +17,7 @@
 |Header|home/Header.vue|自创建|
 |LyTab|main.js|ly-tab @1.2.1|
 |Swiper|main.js|Vue-Awesome-Swiper @3.1.3|
+|better-scroll|HomeView.vue|...|
 
 ## Project setup
 ```

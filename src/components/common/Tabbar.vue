@@ -70,9 +70,9 @@ export default {
 
 <style scoped>
 .tabbar {
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
   z-index: 999;
   width: 100%;
   height: 1.6rem;

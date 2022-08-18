@@ -56,7 +56,7 @@ export default {
   position: relative;
   width: 100%;
   height: 4.4rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .swiper-container {
   width: 100%;

@@ -19,9 +19,9 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   height: 1.6rem;
   background-color: #4f951c;
